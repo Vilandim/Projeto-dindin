@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+header {
+    background-color: #2E948A ;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header #container-header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 1440px;
+}
+
+header #logo-header {
+    margin-left: -60px;
+}
+
+
+ul .nav-item {
+    display: inline;
+    margin: 30px;
+}
+
+.nav-item .nav-item-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FDFDFD;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+section {
+    display: flex;
+    width: 70%;
+    margin: 90px auto;
+    gap: 130px;
+    align-items: center;
+}
+
+section #course-info {
+    width: 45%;
+}
+
+section #course-info h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #FF4081;
+}
+
+section #course-info p {
+    font-size: 20px;
+    color: #000000;
+}
+
+#article-container {
+    background-color: #F7F7F7;
+    padding-top: 10px;
+}
+
+.class {
+    width: 70%;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.class-info {
+    width: 45%;
+    margin-top: -20px;
+}
+
+.class-info h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #FF4081;
+    margin: 0;
+}
+
+.class-info p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.line {
+    background: #C4C4C4;
+    width: 80%;
+    margin: auto;
+    height: 3px;
+}
+
+footer {
+    background-color: #419488;
+}
+
+footer #container-footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 20px;
+}
+
+footer #logo-footer {
+    margin-left: -50px;
+}
+
+footer .nav-item-footer {
+    list-style: none;
+    margin: 10px;
+}
+
+footer .nav-item-link-footer {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+}
+
+#more-options-footer .footer-link {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 14px 71px;
+    display: block;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
