@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+header {
+    background-color: #2E948A ;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header #container-header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    max-width: 1440px;
+}
+
+header #logo-header {
+    margin-left: -60px;
+}
+
+
+ul .nav-item {
+    display: inline;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nav-item .nav-item-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FDFDFD;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+    background-color: #51d3c6;
+}
+
+#banner {
+    width: 68%;
+    display: flex;
+    margin: 100px auto;
+    gap: 250px;
+}
+
+
+
+#section-info h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FF4081;
+}
+
+#section-info p {
+    font-size: 27px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+#section-info a {
+    font-size: 27px;
+    border: 2px solid #FF4081;
+    color: #FF4081;
+    border-radius: 62px;
+    text-decoration: none;
+    padding: 8px 26px;
+    cursor: pointer;
+    
+}
+
+#section-info a:hover{
+    color: #FFFFFF;
+    background-color: #FF4081;
+}
+
+
+#our-courses {
+    background-color: #F6F6F6 ;
+    padding-top: 100px;
+}
+
+#courses-main-title {
+    text-align: center;
+}
+
+#courses-main-title h2 {
+    font-size: 50px;
+    color: #FF4081;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#article-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    gap: 150px;
+}
+
+.course-card{ 
+    padding-bottom: 100px;
+}
+
+.course-card h5 {
+    font-size: 23px;
+    color: #FF4081;
+    font-weight: bold;
+   
+}
+
+.course-card p {
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    width: 65%;
+    margin: 10px auto;
+    margin-bottom: 60px;
+   
+
+}
+
+.course-card a {
+    background-color: #FF4081;
+    border-radius: 62px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 18px 45px;
+    text-decoration: none;
+    cursor: pointer;
+   
+
+}
+
+.course-card a:hover {
+    background-color: #f86496;
+}
+
+#title-about-us h3 {
+    font-size: 37px;
+    font-weight: bold;
+    color: #009688;
+    margin: 100px 120px;
+}
+
+#about-us-card-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card-opinion {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.card-opinion-text {
+    width: 55%;
+    margin-left: 37px;
+}
+
+.card-opinion-text p {
+    font-size: 18px;
+    color: #000000;
+}
+
+#more-content {
+    background: #e5e5e5;
+    padding-bottom: 50px;
+}
+
+#more-content-title h3 {
+    padding: 70px 120px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #009688;
+
+}
+
+#more-content-card-container {
+    display: flex;
+    width: 86%;
+    margin: auto;
+}
+
+.more-content-paragraphs h5 {
+    font-size: 25px;
+    color: #009688;
+    margin: 0;
+}
+
+.more-content-paragraphs p {
+    width: 67%;
+    margin: 0;
+}
+
+#more-content-link {
+    width: 90%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#more-content-link a {
+    font-size: 25px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    padding: 10px 35px;
+    border-radius: 62px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#more-content-link a:hover{
+    color: #FFFFFF;
+    background-color: #FF4081;
+}
+
+footer {
+    background-color: #419488;
+}
+
+footer #container-footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 20px;
+}
+
+footer #logo-footer {
+    margin-left: -50px;
+}
+
+footer .nav-item-footer {
+    list-style: none;
+    margin: 10px;
+}
+
+footer .nav-item-link-footer {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+}
+
+#more-options-footer .footer-link {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 14px 71px;
+    display: block;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+#more-options-footer .footer-link:hover {
+    color: #444343;
+    background-color: #FFFFFF;
+}
+
+/* Media queries - 1200px */
+
+@media only screen and (max-width:1200px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header #container-header {
+        justify-content: space-around;
+    }
+
+    #banner{
+        gap: 70px;
+       
+    }
+
+    #article-container{
+        gap: 30px;
+    }
+
+    #title-about-us h3 {
+        margin: 100px 100px;
+    }
+
+    #more-content-title h3 {
+        padding: 70px 80px;
+    }
+
+    #more-content-card-container {
+        gap: 25px;
+        width: 93%;
+    }
+
+    .more-content-paragraphs p {
+        width: 90%;
+    }
+
+
+}
+
+/* Media queries - 1200px */
+
+/* Media queries - 992px */
+
+@media only screen and (max-width: 992px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header #container-header {
+        justify-content: space-around;
+    }
+
+    header #logo-header {
+        margin-left: 0;
+    }
+
+    #banner {
+        flex-direction: column-reverse;
+        width: 60%;
+        gap: 10px;
+    }
+
+    #section-info {
+        text-align: center;
+    }
+
+    #article-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #title-about-us h3 {
+        margin: 30px 60px;
+        text-align: center;
+    }
+
+    #more-content-title h3 {
+        text-align: center;
+    }
+
+    #more-content-card-container{
+        flex-direction: column;
+    }
+
+    .more-content-card {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .more-content-paragraphs p {
+        width: 47%;
+        margin: auto;        
+    }
+
+    #more-content-link {
+        width: 100%;
+        padding-top: 50px;
+    }
+   
+}
+/* Media queries - 992px */
+
+/* Media queries - 768px */
+
+@media only screen and (max-width:768px) {
+    #nav-list {
+        display: flex;
+    }
+
+    #more-options-footer .footer-link {
+        padding: 10px 30px;
+    }
+}
+
+/* Media queries - 768px */
+
+
+/* Media queries - 480px */
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header #logo-header {
+        margin-left: 0;
+    }
+
+    #nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul .nav-item {
+        margin: 10px 10px;
+    }
+
+    #nav-list {
+        padding: 5px;
+    }
+
+    .nav-item .nav-item-link {
+        font-size: 15px;
+    }
+
+    #banner {
+        margin-top: 30px;
+        width: 70%;
+    }
+
+    
+    #section-image {
+        display: none;
+    }
+
+    #article-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #title-about-us h3 {
+        margin: 60px 80px;
+    }
+
+    #about-us-card-container {
+        flex-direction: column;
+    }
+
+    .card-opinion {
+        width: 70%;
+    }
+
+    .card-opinion-text{
+        margin-left: 20px;
+    }
+
+    #more-content-title h3 {
+        padding: 70px 0px;
+    }
+
+    #more-content-card-container{
+        flex-direction: column;
+        width: 80%;
+    }
+
+
+    .more-content-paragraphs p{
+        margin-bottom: 30px;
+        width: 90%;
+    }
+
+    #more-content-link {
+        padding-top: 60px;
+        width: 80%;
+        margin: auto;
+    }
+
+    footer #container-footer {
+        flex-direction: column;
+    }
+
+    footer #logo-footer {
+        margin-left: 0;
+    }
+
+    .nav-item-footer {
+        display: inline;
+       
+    }
+
+    footer ul {
+        margin-left: -30px;
+     } 
+  
+}
+
+/* Media queries - 480px */
+
+
+
+
+
+    

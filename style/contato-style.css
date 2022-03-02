@@ -22,10 +22,16 @@ header #container-header {
     max-width: 1440px;
 }
 
+header #logo-header {
+    margin-left: -60px;
+}
+
 
 ul .nav-item {
     display: inline;
     margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .nav-item .nav-item-link {
@@ -35,6 +41,10 @@ ul .nav-item {
     font-size: 20px;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.nav-item:hover {
+    background-color: #51d3c6;
 }
 
  section {
@@ -82,6 +92,10 @@ button {
     text-align: center;
 }
 
+button:hover {
+    background-color: #f86496;
+}
+
 #side-image {
     width: 25%;
 }
@@ -98,6 +112,10 @@ footer #container-footer {
     justify-content: space-between;
     max-width: 1440px;
     padding: 20px;
+}
+
+footer #logo-footer {
+    margin-left: -50px;
 }
 
 footer .nav-item-footer {
@@ -124,5 +142,151 @@ footer .nav-item-link-footer {
     color: #FFFFFF;
 
 }
+
+#more-options-footer .footer-link:hover {
+    color: #444343;
+    background-color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    html, body {
+        overflow-x: hidden;
+        
+    }
+
+    header #container-header {
+        justify-content: space-around;
+    }
+
+    section {
+        margin: 60px 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header #container-header {
+        justify-content: space-around;
+    }
+
+    header #logo-header {
+        margin-left: 0;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        margin: 30px auto;
+    }
+
+    form {
+        width: 75%;
+        margin: auto;
+    }
+
+    #side-image {
+        width: 65%;
+        margin: auto;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    #nav-list {
+        display: flex;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        margin: 30px auto;
+
+    }
+
+    form {
+        width: 80%;
+        
+    }
+
+    #more-options-footer .footer-link {
+        padding: 10px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    header #logo-header {
+        margin-left: 0;
+    }
+
+    #nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul .nav-item {
+        margin: 10px 10px;
+    }
+
+    #nav-list {
+        padding: 5px;
+    }
+
+    .nav-item .nav-item-link {
+        font-size: 15px;
+    }
+
+    section {
+        display: block;
+        margin: 60px auto;
+    }
+
+    form {
+        width: 70%;
+        margin: 0;
+    }
+
+    #side-image {
+        display: none;
+    }
+
+    footer #container-footer {
+        flex-direction: column;
+    }
+
+    footer #logo-footer {
+        margin-left: 0;
+    }
+
+    .nav-item-footer {
+        display: inline;
+       
+    }
+
+    footer ul {
+        margin-left: -30px;
+     } 
+
+}
+
+
+
+
+
+
+
+
+    
+
 
 
