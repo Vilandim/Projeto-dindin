@@ -22,10 +22,6 @@ header #container-header {
     max-width: 1440px;
 }
 
-header #logo-header {
-    margin-left: -60px;
-}
-
 
 ul .nav-item {
     display: inline;
