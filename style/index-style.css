@@ -47,7 +47,7 @@ ul .nav-item {
     width: 68%;
     display: flex;
     margin: 100px auto;
-    gap: 250px;
+    gap: 150px;
 }
 
 
@@ -102,7 +102,7 @@ ul .nav-item {
     width: 90%;
     margin: auto;
     text-align: center;
-    gap: 150px;
+    gap: 50px;
 }
 
 .course-card{ 
@@ -110,7 +110,7 @@ ul .nav-item {
 }
 
 .course-card h5 {
-    font-size: 23px;
+    font-size: 21px;
     color: #FF4081;
     font-weight: bold;
    
@@ -331,6 +331,10 @@ footer .nav-item-link-footer {
         margin-left: 0;
     }
 
+    ul .nav-item{
+        margin: 0;
+    }
+
     #banner {
         flex-direction: column-reverse;
         width: 60%;
@@ -384,8 +388,12 @@ footer .nav-item-link-footer {
         display: flex;
     }
 
+    ul .nav-item {
+        margin: 0;
+    }
+
     #more-options-footer .footer-link {
-        padding: 10px 30px;
+        padding: 10px 10px;
     }
 }
 
