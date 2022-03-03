@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 
+html{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Ubuntu";
+    
 }
 
 header {
@@ -44,7 +49,7 @@ ul .nav-item {
 }
 
 section{
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 100px;
 }
@@ -103,7 +108,7 @@ section{
 
 #article-container {
     display: flex;
-    width: 70%;
+    width: 90%;
     margin: auto;
     text-align: center;
     gap: 150px;
@@ -114,7 +119,7 @@ section{
 }
 
 .course-card h5 {
-    font-size: 23px;
+    font-size: 21px;
     color: #FF4081;
     font-weight: bold;
    
@@ -244,6 +249,10 @@ footer .nav-item-link-footer {
     header #logo-header {
         margin-left: 0;
     }
+
+    ul .nav-item{
+        margin: 0;
+    }
     
     #section-image img {
         width: 580px;
@@ -263,6 +272,10 @@ footer .nav-item-link-footer {
 @media only screen and (max-width: 768px) {
     #nav-list {
         display: flex;
+    }
+
+    ul .nav-item{
+        margin: 0;
     }
 
     #section-image img {

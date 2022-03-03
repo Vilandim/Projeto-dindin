@@ -185,6 +185,10 @@ footer .nav-item-link-footer {
         margin-left: 0;
     }
 
+    ul .nav-item{
+        margin: 0;
+    }
+
     #article-container {
         padding-bottom: 30px;
 
@@ -222,6 +226,10 @@ footer .nav-item-link-footer {
 @media only screen and (max-width:768px) {
     #nav-list {
         display: flex;
+    }
+
+    ul .nav-item{
+        margin: 0;
     }
 
     #course-overview {
