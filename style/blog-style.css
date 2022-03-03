@@ -272,6 +272,10 @@ footer .nav-item-link-footer {
         /* margin-right: 0; */
     }
 
+    .article-image {
+        text-align: center;
+    }
+
     .article-image img {
         width: 298px;
         height: 273px;
